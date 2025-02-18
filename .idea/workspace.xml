@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="83caf790-fad8-4a3f-896f-0440523feb67" name="Changes" comment="Nouvelle installation de la librairie NLTK" />
+    <list default="true" id="83caf790-fad8-4a3f-896f-0440523feb67" name="Changes" comment="librairie NLTK" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -102,13 +102,22 @@
       <option name="project" value="LOCAL" />
       <updated>1739910865035</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="librairie NLTK">
+      <option name="closed" value="true" />
+      <created>1739911229552</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1739911229552</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Ajout des codes" />
     <MESSAGE value="Ajout de deux bibliothèques NLTK" />
     <MESSAGE value="Nouvelle installation de la librairie NLTK" />
-    <option name="LAST_COMMIT_MESSAGE" value="Nouvelle installation de la librairie NLTK" />
+    <MESSAGE value="librairie NLTK" />
+    <option name="LAST_COMMIT_MESSAGE" value="librairie NLTK" />
   </component>
 </project>
