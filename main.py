@@ -4,6 +4,8 @@ import time
 from pathlib import Path
 
 import nltk
+nltk.download('averaged_perceptron_tagger')
+nltk.download('punkt_tab')
 import streamlit as st
 from nltk import RegexpTokenizer
 from nltk.corpus import stopwords
