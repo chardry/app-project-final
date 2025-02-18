@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="83caf790-fad8-4a3f-896f-0440523feb67" name="Changes" comment="Ajout des codes">
+    <list default="true" id="83caf790-fad8-4a3f-896f-0440523feb67" name="Changes" comment="Ajout de deux bibliothèques NLTK">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,11 +80,28 @@
       <option name="project" value="LOCAL" />
       <updated>1739908488967</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Ajout de deux bibliothèques NLTK">
+      <option name="closed" value="true" />
+      <created>1739910191046</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1739910191046</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Ajout de deux bibliothèques NLTK">
+      <option name="closed" value="true" />
+      <created>1739910339569</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1739910339569</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Ajout des codes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ajout des codes" />
+    <MESSAGE value="Ajout de deux bibliothèques NLTK" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ajout de deux bibliothèques NLTK" />
   </component>
 </project>
