@@ -14,7 +14,7 @@ from sklearn.metrics.pairwise import cosine_similarity
 # Définition des éléments
 fichier = open("lions.txt", 'r', encoding='utf-8')
 
-lignes = fichier.read()
+lignes = fichier.readline()
 lignes = lignes.lower()
 
 tokens_phrase = nltk.sent_tokenize(lignes)
@@ -22,6 +22,8 @@ tokens_mots = nltk.word_tokenize(lignes)
 
 tokenizer = RegexpTokenizer(r'\w+')
 
+# Fermeture du fichier
+fichier.close()
 
 def tokenisation(text):
     tokens1 = []
@@ -31,9 +33,6 @@ def tokenisation(text):
 
 salutations = ("salut", "bonjour", "hello", "bonjour, comment ça va ?")
 rep_salutations = ("Salut", "Bonjour", "Hello", "Bonjour, ça me fait plaisir de répondre à vos questions")
-
-# Fermeture du fichier
-fichier.close()
 
 def saluer(phrase):
     if phrase != None:
