@@ -12,7 +12,7 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 
 # Définition des éléments
-fichier = open("lions.txt", 'r', encoding='utf-8')
+fichier = open("lions.txt", 'r', encoding='utf-8', errors="ignore")
 
 lignes = fichier.read()
 lignes = lignes.lower()
