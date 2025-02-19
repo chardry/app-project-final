@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="83caf790-fad8-4a3f-896f-0440523feb67" name="Changes" comment="Ajout du fichier de requierements.txt">
-      <change beforePath="$PROJECT_DIR$/.idea/app-project-final.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/app-project-final.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="83caf790-fad8-4a3f-896f-0440523feb67" name="Changes" comment="Modification de l'interpréteur et de la manière de lire le fichier.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
@@ -131,7 +129,15 @@
       <option name="project" value="LOCAL" />
       <updated>1739924846249</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Modification de l'interpréteur et de la manière de lire le fichier.">
+      <option name="closed" value="true" />
+      <created>1739959119952</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1739959119952</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -141,6 +147,7 @@
     <MESSAGE value="librairie NLTK" />
     <MESSAGE value="Python 3.12" />
     <MESSAGE value="Ajout du fichier de requierements.txt" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ajout du fichier de requierements.txt" />
+    <MESSAGE value="Modification de l'interpréteur et de la manière de lire le fichier." />
+    <option name="LAST_COMMIT_MESSAGE" value="Modification de l'interpréteur et de la manière de lire le fichier." />
   </component>
 </project>
