@@ -14,7 +14,7 @@ from sklearn.metrics.pairwise import cosine_similarity
 # Définition des éléments
 fichier = open("lions.txt", 'r', encoding='utf-8')
 
-lignes = fichier.readline()
+lignes = fichier.read()
 lignes = lignes.lower()
 
 tokens_phrase = nltk.sent_tokenize(lignes)
