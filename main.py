@@ -1,7 +1,6 @@
 # Importation des packages
 import random
 import time
-from pathlib import Path
 
 import nltk
 nltk.download('averaged_perceptron_tagger')
@@ -13,9 +12,9 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 
 # Définition des éléments
-fichier = Path.home() / "PycharmProjects" / "app-project-final" / "lions.txt"
+fichier = open("lions.txt", 'r')
 
-lignes = fichier.read_text()
+lignes = fichier.read()
 lignes = lignes.lower()
 
 tokens_phrase = nltk.sent_tokenize(lignes)
@@ -33,6 +32,8 @@ def tokenisation(text):
 salutations = ("salut", "bonjour", "hello", "bonjour, comment ça va ?")
 rep_salutations = ("Salut", "Bonjour", "Hello", "Bonjour, ça me fait plaisir de répondre à vos questions")
 
+# Fermeture du fichier
+fichier.close()
 
 def saluer(phrase):
     if phrase != None:
