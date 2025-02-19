@@ -5,6 +5,7 @@ import time
 import nltk
 nltk.download('averaged_perceptron_tagger')
 nltk.download('punkt_tab')
+nltk.download('stopwords')
 import streamlit as st
 from nltk import RegexpTokenizer
 from nltk.corpus import stopwords
